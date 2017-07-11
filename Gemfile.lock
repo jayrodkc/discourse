@@ -477,7 +477,7 @@ DEPENDENCIES
   thor
   tilt
   timecop
-  uglifier
+  uglifier (~> 2.8.29)
   unf
   unicorn
   webmock
