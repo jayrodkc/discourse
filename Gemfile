@@ -114,7 +114,7 @@ gem 'rack-protection' # security
 # in production environments by default.
 # allow everywhere for now cause we are allowing asset debugging in prd
 group :assets do
-  gem 'uglifier'
+  gem 'uglifier' '2.8.29'
   gem 'rtlit', require: false # for css rtling
 end
 
